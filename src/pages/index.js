@@ -3,11 +3,13 @@ import { graphql, Link } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
+// import SEO from "../components/seo"
 
 export default ({ data }) => {
   console.log(data)
   return (
     <Layout>
+      {/* <SEO title={post.frontmatter.title} description={post.excerpt} /> */}
       <div>
         <h1
           css={css`
