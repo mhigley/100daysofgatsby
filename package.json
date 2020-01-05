@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gatsby develop -H 0.0.0.0 -p 8000"
+    "dev": "gatsby develop -H 0.0.0.0 -p 8000",
+    "build": "gatsby build",
+    "serve": "gastby serve -p 9000"
   },
   "keywords": [],
   "author": "",
@@ -14,13 +16,19 @@
     "@mdx-js/react": "^1.5.3",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.18.17",
+    "gatsby-image": "^2.2.37",
     "gatsby-plugin-mdx": "^1.0.64",
+    "gatsby-plugin-react-helmet": "^3.1.18",
+    "gatsby-plugin-sharp": "^2.3.10",
     "gatsby-plugin-styled-components": "^3.1.16",
+    "gatsby-remark-images": "^3.1.39",
     "gatsby-source-filesystem": "^2.1.43",
+    "gatsby-transformer-sharp": "^2.3.9",
     "prism-react-renderer": "^1.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-live": "^2.2.2",
+    "react-seo-component": "^0.1.16",
     "styled-components": "^4.4.1"
   }
 }
