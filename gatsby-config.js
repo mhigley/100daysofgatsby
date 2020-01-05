@@ -1,8 +1,8 @@
 const siteMetadata = {
   title: `The Localhost Blog`,
   description: `Working through a Gatsby blog w/ MDX tutorial`,
-  image: `/default-site-image.jpg`,
-  siteUrl: `http://localhost:8000`,
+  image: `./src/images/boba.jpg`,
+  siteUrl: `http://mdx-blog.surge.sh/`,
   siteLanguage: `en-GB`,
   siteLocale: `en_gb`,
   twitterUsername: `@matthewhigley`,

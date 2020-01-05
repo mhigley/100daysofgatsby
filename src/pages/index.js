@@ -37,10 +37,13 @@ export default ({ data }) => {
       <IndexWrapper>
         {data.allMdx.nodes.map(({ id, excerpt, frontmatter, fields }) => {
           return (
-            <PostWrapper key={id}>
+            <PostWrapper key={id} style={{ marginBottom: "10vw" }}>
               <Link to={fields.slug}>
                 {!!frontmatter.cover ? (
-                  <Image sizes={frontmatter.cover.childImageSharp.sizes} />
+                  <>
+                    <Image sizes={frontmatter.cover.childImageSharp.sizes} />
+                    <small>{frontmatter.coverCredit}</small>
+                  </>
                 ) : null}
                 <h1>{frontmatter.title}</h1>
                 <p>{frontmatter.date}</p>
@@ -74,6 +77,7 @@ export const query = graphql`
               }
             }
           }
+          coverCredit
         }
         fields {
           slug
