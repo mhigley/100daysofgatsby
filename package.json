@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0 -p 8000",
     "build": "gatsby build",
-    "serve": "gastby serve -p 9000"
+    "serve": "gatsby serve -p 9000"
   },
   "keywords": [],
   "author": "",
