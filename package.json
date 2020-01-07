@@ -14,7 +14,10 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@svgr/webpack": "^5.0.1",
     "gatsby": "^2.18.12",
+    "gatsby-plugin-svgr": "^2.0.2",
+    "gsap": "^3.0.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
