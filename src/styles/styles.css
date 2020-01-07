@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+svg#react-logo {
+  height: 40vmin;
+}
+
 svg #letters path {
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
